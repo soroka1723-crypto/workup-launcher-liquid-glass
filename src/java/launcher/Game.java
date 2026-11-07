@@ -347,7 +347,7 @@ public class Game {
     private void installMods() throws Exception {
         Path modsDir = gameDir.resolve("mods");
         Files.createDirectories(modsDir);
-        String[] embedded = {"workup-1.6.1.jar", "fabric-api-0.141.6+1.21.11.jar"};
+        String[] embedded = {"workup-1.6.1.jar", "fabric-api-0.141.6+1.21.11.jar", "sodium-fabric-0.8.14+mc1.21.11.jar"};
         for (String name : embedded) {
             InputStream in = getClass().getResourceAsStream("/mods/" + name);
             if (in == null)
