@@ -120,6 +120,7 @@
           <a href="#features">Возможности</a>
           <a href="#install">Запуск</a>
           <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/workup-launcher.jar">Скачать JAR</a>
+          <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/WorkupLauncher.7z">Скачать 7z</a>
           <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest">Релизы</a>
         </div>
       </div>
@@ -134,11 +135,12 @@
           <h1>Компактный лаунчер в стиле <span>Liquid Glass</span></h1>
           <p class="lead">Прозрачное iOS-стекло, компактное окно, настройка RAM, быстрые действия и автоматическая установка/запуск клиента Workup.</p>
           <div class="actions">
-            <a class="btn primary" id="dlJar" href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/workup-launcher.jar">Скачать JAR (напрямую)</a>
+            <a class="btn primary" id="dlJar" href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/WorkupLauncher.7z">Скачать Windows-пак (7z)</a>
+            <a class="btn" href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/workup-launcher.jar">Скачать JAR</a>
             <a class="btn" href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest">Все релизы</a>
             <a class="btn" href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass">Исходный код</a>
           </div>
-          <div class="meta">Прямая ссылка скачивает файл из <strong>GitHub Releases</strong> (latest). Загрузите в релиз ассет с именем <code>workup-launcher.jar</code> (или измените имя файла в ссылке). Для Windows app-image выложите zip/установщик и добавьте отдельную кнопку.</div>
+          <div class="meta">Windows-пак — архив <code>WorkupLauncher.7z</code> (формат 7-Zip): <code>WorkupLauncher.exe</code> + <code>app\</code> + <code>runtime\</code>. Встроенная Java включена — ничего устанавливать не нужно. Распаковывать через 7-Zip или WinRAR (Проводник Windows .7z не откроет). Прямая ссылка скачивает файл из последнего <strong>GitHub Release</strong>; загрузите в релиз ассеты с именами <code>WorkupLauncher.7z</code> и <code>workup-launcher.jar</code> (или измените имя файла в ссылке).</div>
         </div>
         <div class="preview glass">
           <div class="mock">
@@ -166,8 +168,8 @@
       <h2>Запуск</h2>
       <div class="glass steps">
         <ol>
-          <li>Скачайте <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/workup-launcher.jar" style="color:var(--a1)">workup-launcher.jar</a> напрямую (файл должен быть загружен в последний Release) или выберите файл на странице <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest" style="color:var(--a1)">Releases</a>.</li>
-          <li>Для app-image: распакуйте папку целиком и запустите <code>WorkupLauncher.exe</code> (рядом должны быть <code>app/</code> и <code>runtime/</code>).</li>
+          <li>Скачайте <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/WorkupLauncher.7z" style="color:var(--a1)">Windows-пак WorkupLauncher.7z</a> (формат 7-Zip) или <a href="https://github.com/soroka1723-crypto/workup-launcher-liquid-glass/releases/latest/download/workup-launcher.jar" style="color:var(--a1)">workup-launcher.jar</a> напрямую. Файл должен быть загружен в последний Release.</li>
+          <li>Для 7z: распакуйте через <strong>7-Zip</strong> или <strong>WinRAR</strong> в любую папку и запустите <code>WorkupLauncher.exe</code> (рядом должны быть <code>app/</code> и <code>runtime/</code>). Java отдельно ставить не нужно.</li>
           <li>Для JAR: установите Java 21 и запустите <code>java -jar workup-launcher.jar</code>.</li>
           <li>Введите ник, выберите RAM и нажмите <strong>Запуск</strong>.</li>
         </ol>
