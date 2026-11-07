@@ -1,0 +1,9 @@
+build/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+/out/
+.idea/
+*.iml
+pairingFile.plist
